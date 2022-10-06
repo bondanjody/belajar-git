@@ -1,0 +1,98 @@
+01 GIT vs GITHUB
+
+
+1. Kita bisa bekerja dengan git saja. Kita bisa bekerja dengan Github saja. Atau bisa kita kombinasikan keduanya
+
+2. Git merupakan VCS (Version Control System)
+
+3. VCS disebut juga revision control system atau source code mnagement adalah sistem yang mengelola perubahan dari sebuah dokumen, program komputer, website dan kumpulan informasi lain. (Wikipedia)
+
+4. Permasalahan yang coba dipecahkan oleh GIT :
+- Masalah revisi file/software
+- Pengerjaan software yang bisa dilakukan oleh banyak orang/tim
+
+5. VCS berfungsi menyimpan rekaman/snapshot perubahan pada source code
+
+6. VCS memungkinkan bekerja berkolaborasi dengan lebih baik
+
+7. VCS memungkinkan mengetahui siapa yang melakukan dan kapan sebuah perubahan terjadi
+
+8. VCS memungkinkan kita untuk kembali ke keadaan sebelum perubahan (checkout)
+
+9. Contoh VCS : Git, Subversion, Mercurial, CVS (Concurrent Version System)
+
+
+
+===== GIT =====
+1. Git adalah sebuah VCS terdistribusi untuk mengelola perubahan file di dalam folder. (Wikipedia)
+
+2. Nantinya, folder tersebut akan kita sebut "repository/repo"
+
+3. Dalam git, riwayat perubahan file disimpan menggunakan serangkaian "commit"
+
+4. Di dalam setiap commit, ada "hash" yang berfungsi sebagai penanda setiap commit.
+
+5. Selain itu ada juga : pembuat commit, tanggal, dan isi pesan perubahan.
+
+6. Di dalam Git ada istilah Branch, yaitu ketika kita membuat cabang dari jalur utama. Misalnya dalam pembuatan software kita ingin membuat fitur baru, maka kita bisa membuat branch dari jalur utama source code.
+Atau ketika kita bekerja di dalam tim, maka banyak anggota tim yang bisa membuat banyak branch untuk mengerjakan masing-masing tugasnya.
+
+7. Di dalam Git ada istilah Merge, yaitu ketika kita menggabungkan kembali branch ke jalur utama source code. Misalnya kita sudah selesai mengerjakan sebuah fitur dan ingin fitur tersebut ada di jalur utama source code, maka kita bisa menggabungkannya ke source code.
+
+8. Kita bisa menggunakan Git secara lokal di komputer kita dengan menginstall software Git.
+
+
+
+==== GitHub =====
+
+1. GitHub adalah layanan cloud untuk menyimpan dan mengelola project / repo dengan menggunakan version control git.
+
+2. GitHub bisa disebut "instagram para programmer". Dikarenakan di sana kita bisa memamerkan project yang kita buat, supaya orang lain dapat melakukan like, serta modifikasi pada source code kita.
+
+3. Di dalam GitHub kita bisa melakukan segala hal seperti yang bisa dilakukan git yang terinstall secara lokal.
+
+
+
+==== Menggunakan Git dan GitHub Bersamaan ====
+
+1. Kita bisa menggunakan Git dan GitHub secara bersamaan.
+
+2. Ketika kita mengirimkan source code / project kita ke GitHub disebut "Push"
+
+3. Ketika kita menarik/mengambil source code / project dari GitHub ke komputer kita disebut "Pull".
+
+4. Yang di Push ataupun yang di Pull di sini adalah Commit
+
+5. Syarat untuk melakukan Push dan Pull :
+- Menjadikan GitHub sebagai Remote (sumber dari repo), lalu kita melakuka clone
+
+
+
+==== Layanan Selain GitHub ====
+
+1. GitLab, BitBucket
+
+
+
+==== Istilah-Istilah Git ====
+
+1. repo : folder project kita
+
+2. commit : rekaman / snapshot dari repo kita
+
+3. hash : penanda unik pada sebuah commit
+
+4. checkout : berpindah ke sebuah commit
+
+5. branch : cabang bebas dari sebuah commit
+
+6. merge : menggabungkan 2 atau lebih branch 
+
+7. remote : sumber yang memiliki repo
+
+8. clone : mengambil repo dari remote
+
+9. push : mengirim commit ke repo
+
+10. pull : mengambil commit dari repo
+
