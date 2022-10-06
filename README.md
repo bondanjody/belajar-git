@@ -1,3 +1,5 @@
-# Percobaan
+# Repositori journal belajar git
 
-Ini adalah file percobaan membuat file README.md
+Sumber pembelajaran :
+- YouTube Web Programming UNPAS
+
