@@ -1,0 +1,28 @@
+Branching :
+- yaitu membuat git branch 
+- yaitu membuat snapshot tanpa mengganggu jalur utama (master branch)
+- Berfungsi ketika kita ingin membuat fitur eksperimental
+- Dan berfungsi juga ketika ada lebih dari 1 orang yang mengerjakan repo yang sama
+
+Untuk membuat branch di GitHub bisa melalui "Create New Files" lalu pada bagian bawah commit, ada 2 pilihan : disimpan ke master branch atau kita bikin branch baru.
+
+Atau dengan mengklik pada dropdown "master" untuk mencari branch. Disitu kita diberi pilihan untuk mencari branch yang sudah ada atau membuat branch baru.
+
+NOTE : Untuk melihat jumlah branch / jalur utama dan branch bisa dengan pergi ke : Insights > Network
+
+NOTE : Untuk melihat histori perubahan file langkah-langkahnya :
+1. Buka file yang ingin dilihat histori nya
+2. Klik pada pojok kanan atas ada tulisan History
+3. Pilih commit mana
+4. Akan tampil warna hijau jika ada penambahan dan merah jika ada pengurangan
+
+Untuk melakukan merge :
+1. Pada branch yang sudah dibuat klik "Compare and Pull Request"
+2. Maka akan muncul halaman Open a Pull Request
+3. Akan ada penjelasan mengenai nama master branch, nama branch yang dibuat, serta keterangan apakah branch bisa di merge atau tidak. Jika branch bisa untuk di merge maka akan tampil tulisan "Able to Merge". Jika branch tidak dapat di merge maka kita masuk pada kondisi yang dinamakan "Merge Conflict"
+
+NOTE : Kenapa dinamakan Pull Request ? Supaya branch kita dapat masuk ke jalur utama (master branch) kita harus meminta (request) izin dari pemilik repo, agar si pemilik repo mau menarik perubahan yang telah kita lakukan
+
+Kumpulan permintaan Pull Request ini dapat dilihat di tab "Pull Request" pada repo
+
+NOTE : Sebagai pemilik repo kita bisa memberikan pesan kepada pengirim "Pull Request" apabila kita menerima "Pull Request" dia misalnya ucapan terima kasih.
