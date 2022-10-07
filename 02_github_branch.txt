@@ -7,3 +7,5 @@ Branching :
 Untuk membuat branch di GitHub bisa melalui "Create New Files" lalu pada bagian bawah commit, ada 2 pilihan : disimpan ke master branch atau kita bikin branch baru.
 
 Atau dengan mengklik pada dropdown "master" untuk mencari branch. Disitu kita diberi pilihan untuk mencari branch yang sudah ada atau membuat branch baru.
+
+NOTE : Untuk melihat jumlah branch / jalur utama dan branch bisa dengan pergi ke : Insights > Network
