@@ -1,0 +1,29 @@
+REPOSITORY 
+- Repository merupakan sebutan project di Git
+- Kita bisa membuat folder kosong datau folder yang sudah berisi file, lalu membuatnya sebagai git repository
+- atau kita bisa melakukan clone git repository yang sudah ada di server Git
+
+MEMBUAT REPOSITORY 
+- untuk membuat repository kita hanya perlu menggunakan perintah "git init"
+- dan dilakukan di dalam folder yang akan kita jadikan sebagai Git Repo
+- Setelah membuat git repository kita bisa lihat ada folder baru dengan nama (.git)
+- git merupakan folder yang berisikan database Git, jangan sampai kita mengubah data yang terdapat di dalam folder (.git)
+
+
+TASK [1] :
+"Membuat Repo Baru dan Membukanya di VS Code"
+1. Buat folder baru
+2. buka di terminal
+3. lakukan git init di dalam folder tersebut
+4. buka folder .git dan lihat file-file di dalamnya
+5. buka di VS Code dengan menggunakan perintah code .
+
+
+GIT STATUS 
+digunakan untuk mengecek perubahan yang terjadi (file diubah, file dihapus, dll)
+
+
+TASK [2] : 
+"Melakukan Git Status"
+1. Cek pada repo yang dibuat dengan menggunakan perintah "git status"
+
