@@ -98,3 +98,27 @@ Atau ketika kita bekerja di dalam tim, maka banyak anggota tim yang bisa membuat
 
 
 NOTE : version control tidak hanya dapat digunakan pada text, tetapi juga pada file tipe lain seperti gambar
+
+
+
+Version Control ada 3 jenis :
+1. Local Version Control
+- merupakan version control yang berjalan hanya di local computer
+- pendekatan ini biasanya digunakan sederhana dan tidak butuh server, karena semua riwayat pekerjaan disimpan di local komputer
+- setiap perubahan versi yang terjadi pada file hanya disimpan di local komputer
+
+2. Centralized Version Control
+- masalah pada local version control adalah ketika komputer rusak maka data akan hilang
+- selain itu agak sulit untuk berkolaborasi dengan pengguna lain jika file hanya ada di satu komputer
+- untuk mengatasi masalah di atas, kita bisa menggunakan Centralized Version Control
+- CVC menyimpan seluruh data revisi di server
+- pengguna bisa mengakses data ke server untuk melihat file
+- kekurangannya tidak bisa offline, jika server down maka pengguna tidak bisa mengakses file
+- Contoh CVC : Subversion
+
+3. Distributed Version Control
+- DVC adalah alternatif dari CVC
+- dalam DVC tidak hanya mengambil file versi terakhir, namun seluruh riwayat revisi di copy seluruhnya
+- apabila terjadi masalah dengan server, client masih tetap bisa bekerja, memanipulasi file, sampai melihat riwayat perubahan
+- bahkan dalam DVC, server bisa lebih dari satu, karena setiap server isinya sama, full backup data 
+- contoh DVC : Git, Mercurial, dll.
