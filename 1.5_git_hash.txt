@@ -1,0 +1,34 @@
+SNAPSHOT
+- Pada materi sebelumnya kita menyebutkan versi pada perubahan file
+- sebenarnya perubahan yang dilakukan bisa jadi dilakukan secara bersamaan untuk beberapa file, hal ini berarti sebenarnya tidak ada yang namanya versi file
+- semua perubahan yang terjadi akan direkam, dan kita sebut namanya sebagai "snapshot"
+- snapshot berisikan semua perubahan yang terjadi di semua file yang kita commit
+- setiap snapshot akan menghasilkan 'hash'
+
+
+HASH 
+- setiap snapshot yang kita lakukan, semua akan menghasilkan 'hash' sebagai identitas snapshotnya
+- Hash merupakan checksum untuk menghitung perubahan yang terjadi 
+- Git menggunakan algoritma SHA-1 untuk menghitung hash
+- Hash dibutuhkan untuk menjaga data integrity, sehingga tiap snapshot yang sudah kita lakukan tidak bisa diubah, hal ini karena akan secara otomatis merusak hash yang sudah dibuat
+
+
+INFORMASI YANG DITAMPUNG :
+1. Hash 
+2. Parent (commit sebelumnya)
+3. Author (yang membuat)
+4. Message (deskripsi commit)
+
+NOTE : Pada Git kita tidak bisa mengubah nilai Hash karena akan menimbulkan efek berantai. Mengingat setiap commit terhubung satu sama lain.
+
+
+PERHITUNGAN HASH 
+- perhitungan Hash dilakukan tidak hanya dari perubahan file
+- namun juga dari parent, author, dan message
+- artinya, perubahan yang terjadi pada snapshot sebelumnya, maka akan menimbulkan efek berantai, karena semua hash selanjutnya akan berubah
+- oleh karena itu, hal tersebut tidak bisa dilakukan Git
+
+
+HEAD 
+- HEAD merupakan pointer menuju hash yang paling akhir
+- karena kadang sangat menyulitkan jika harus menuliskan hash value, jika kita akan menuju ke hash paling baru, kita bisa menggunakan kata HEAD
