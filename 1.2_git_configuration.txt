@@ -1,0 +1,24 @@
+TASK [1] :
+lakukan konfigurasi git dengan perintah :
+git config --global user.name "<username>"
+git config --global user.email "<email>"
+
+
+Mengapa kita perlu melakukan konfigurasi seperti di atas ? Karena supaya dapat di track siapa yang melakukan perubahan
+
+
+TASK [2] :
+Atur agar VS Code menjadi default editor dan default difftool untuk Git :
+1) Buka terminal
+2) Ketik perintah : git config --global core.editor "code --wait"
+3) Ketik perintah : git config --global diff.tool "default-difftool"
+4) Ketik perintah : git config --global difftool.default-difftool.cmd "code --wait --diff \$LOCAL \$REMOTE"
+
+Dari task di atas kita dapat menggunakan VS Code sebagai default editor dan juga dapat digunakan untuk melihat perbedaan dari 2 macam git
+Kenapa kita menambahkan --wait , supaya saat VS Code nya ditutup ia akan hang sebentar sampai kita benar-benar memutuskan untuk menutupnya
+
+
+TASK [3] :
+Melihat seluruh konfigurasi :
+1) Gunakan perintah : 
+git config --list --show-origin
