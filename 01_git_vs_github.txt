@@ -96,3 +96,5 @@ Atau ketika kita bekerja di dalam tim, maka banyak anggota tim yang bisa membuat
 
 10. pull : mengambil commit dari repo
 
+
+NOTE : version control tidak hanya dapat digunakan pada text, tetapi juga pada file tipe lain seperti gambar
